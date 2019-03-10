@@ -68,17 +68,6 @@
                         <input
                                 type="text"
                                 class="form-control"
-                                v-model="ex4_1">
-                    </div>
-                    <div class="col-xs-6">
-                        <p>{{ ex4_1_filtered }}</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <input
-                                type="text"
-                                class="form-control"
                                 v-model="ex4_2">
                     </div>
                     <div class="col-xs-6">
