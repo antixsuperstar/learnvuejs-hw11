@@ -6,7 +6,11 @@ export const ex4 = {
         };
     },
     computed: {
-        ex4_1_filtered: () => this.ex4_1.split('').reverse().join(''),
-        ex4_2_filtered: () => this.ex4_2 + ' (' + this.ex4_2.length + ')'
+        ex4_1_filtered() {
+            return this.ex4_1.split('').reverse().join('');
+        },
+        ex4_2_filtered() {
+            return this.ex4_2 + ' (' + this.ex4_2.length + ')';
+        }
     }
 };
